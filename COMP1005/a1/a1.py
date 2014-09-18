@@ -75,6 +75,7 @@ def bmi_calculator():
 	weight = input("Enter weight: ")
 	height = input("Enter height: ")
 	print "Looks like %s's BMI is %s"%(name, bmi(weight, height))
+bmi_calculator()
 #tests
 # example 1:
 # Please enter your name: bob
