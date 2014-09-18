@@ -1,3 +1,5 @@
+--abandoing this for now ... silly type and indentation system is silly
+
 f2c t = ((t - 32) * 5 / 9)
 
 lboz2kg p o = (((p * 16) + o) / 35.274)
