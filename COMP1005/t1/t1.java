@@ -2,12 +2,20 @@ import java.util.*;
 
 public class t1{
 	public static void main(String[] args) {
-		System.out.println(kilometers2miles(5));
+		System.out.println(kilometers2miles(0));
+		System.out.println(kilometers2miles(3));
+		System.out.println(circumference(0));
 		System.out.println(circumference(2));
+		System.out.println(average(0, 0));
+		System.out.println(average(0, 1));
+		System.out.println(average(1, 0));
 		System.out.println(average(1, 3));
 		greet("Bob");
+		System.out.println(s2dhms(0));
 		System.out.println(s2dhms(90061));
+		System.out.println(dhms2s(0, 0, 0, 0));
 		System.out.println(dhms2s(1, 1, 1, 1));
+		System.out.println(dhms2s(1, 2, 3, 4));
 	}
 
 	public static double kilometers2miles (int d){
