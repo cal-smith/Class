@@ -22,6 +22,8 @@ public class a2{
 		System.out.println("bmi: " + bmi_category(25));
 		System.out.println("bmi: " + bmi_category(9001));
 		System.out.println("log2: " + log2(8));
+		System.out.println("log2: " + log2(9001));
+		System.out.println("log2: " + log2(23));
 	}
 
 	/*
