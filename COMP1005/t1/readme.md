@@ -3,9 +3,7 @@ T1
 
 Reference: t1.py
 
-Implementations in: java, clojure
-
-Original tutorial:
+Implementations in: Java, Clojure
 
 ---
 
@@ -43,4 +41,4 @@ print dhms2s(1,1,1,1)
 print dhms2s(1,2,3,4)
 ```
 
-Once you have finished this, be sure to save t1.py. Open the command prompt and navigate to the directory in which you saved t1.py. Run python t1.py and ensure that no errors have occurred.
+Once you have finished this, be sure to save t1.py. Open the command prompt and navigate to the directory in which you saved t1.py. Run `python t1.py` and ensure that no errors have occurred.
