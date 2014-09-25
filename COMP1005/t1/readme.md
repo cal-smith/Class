@@ -1,9 +1,11 @@
 T1
 ====
 
-Refernce: t1.py
+Reference: t1.py
 
 Implementations in: java, clojure
+
+Original tutorial:
 
 ---
 
