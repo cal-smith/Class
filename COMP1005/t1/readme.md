@@ -3,7 +3,7 @@ T1
 
 Reference: t1.py
 
-Implementations in: Java, Clojure
+Implementations in: Java, Clojure, Ruby
 
 ---
 

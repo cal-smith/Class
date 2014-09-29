@@ -3,7 +3,7 @@ A1
 
 Reference: a1.py
 
-Implementations in: Clojure, and attempted in Haskell
+Implementations in: Clojure, Ruby, and attempted in Haskell
 
 ---
 
