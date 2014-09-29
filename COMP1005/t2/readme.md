@@ -3,7 +3,7 @@ T2
 
 Reference: t2.py
 
-Implementations in: Java, Clojure
+Implementations in: Java, Clojure, Ruby
 
 ---
 
