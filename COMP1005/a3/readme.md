@@ -1,4 +1,12 @@
-Create a file called a3.py in a directory of your choosing. Be sure to place
+A3
+====
+
+Reference: a3.py
+
+Implementations in:
+
+---
+Create a file called **a3.py** in a directory of your choosing. Be sure to place
 
 `from __future__ import division`
 
