@@ -1,11 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 int pose_question(char *question, char *a, char *b, char *c, char *d, char *correct_answer){
 	printf("\n%s\n A: %s\n B: %s\n C: %s\n D: %s\n", question, a, b, c, d);
+	
 	char answer[3];
 	printf("Answer:");
 	fgets(answer, 3, stdin);
+	
 	int answered = 0;
 	while (answered == 0){
 		if (strcmp(answer, "a\n") == 0 || strcmp(answer, "b\n") == 0 || strcmp(answer, "c\n") == 0 || strcmp(answer, "d\n") == 0){
@@ -15,6 +18,7 @@ int pose_question(char *question, char *a, char *b, char *c, char *d, char *corr
 			fgets(answer, 3, stdin);
 		}
 	}
+
 	if (strncmp(answer, correct_answer, 1) == 0){
 		puts("Correct! score ++");
 		return 1;
@@ -31,6 +35,7 @@ int play(){
 	score += pose_question("Where is John's office?", "1170 HP", "5380 HP", "4155 HP", "KM-TH SA", "b");
 	score += pose_question("Linux was originally programmed by:", "Ken Thompson and Dennis Ritchie", "Richard Stallman", "Linus Torvalds", "DEVELOPERS DEVELOPERS DEVELOPERS DEVELOPERS", "c");
 	score += pose_question("What algorithm was Google founded on?", "MapReduce", "PageRank", "GoogleRank", "A* Graph Search", "b");
+	
 	printf("\nscore: %d\n", score);
 	if (score > 5){
 		puts("hacker");
@@ -41,6 +46,7 @@ int play(){
 	} else {
 		puts("awww...");
 	}
+	
 	while (1){
 		char again[3];
 		printf("\nplay again? y/n:");

@@ -14,6 +14,7 @@ print "unique:", unique(map(int, str(45234526)))
 print "unique:", unique(map(int, str(123)))
 
 def pos_and_neg(a):
+	#for potential performance reasons this should be s = set(a) and all set(a) refs changed to s
 	return [x for x in a if x in set(a) and -x in set(a)]
 
 print "pos and neg:", pos_and_neg([-1,-2,3,1,2])

@@ -90,7 +90,7 @@ int main(int argc, char const *argv[]){
 	int tarray[5] = {1, 2, 5, 3, 6};
 	printf("threshold: %d\n", *threshold(tarray, 4));
     
-    printf("bmi_category: %s\n", bmi_category(18.4));
+    printf("bmi_category: %s\n", bmi_category(18));
     
     printf("log2: %d\n", llog2(8));
     
