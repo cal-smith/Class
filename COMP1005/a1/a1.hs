@@ -1,30 +1,39 @@
+import System.IO
+
+(//) a b = a `div` b
+
+f2c :: Float -> Float
 f2c t = ((t - 32) * 5 / 9)
 
+lboz2kg :: Float -> Float -> Float
 lboz2kg p o = (((p * 16) + o) / 35.274)
 
-in2ftin h = if h < 12 
-    then [0, h] 
-    else [ft, inch]
-    where {
-        ft = h / 12;
-        inch = h - (h / 12); --this is just horribly broken D:
-    }
+in2ftin :: Int -> (Int, Float)
+in2ftin h
+    | h < 12 = (0, fromIntegral h)
+    | otherwise = (h // 12, ((fromIntegral h / 12) - fromIntegral(h // 12)) * 10)
 
+bibformat_mla :: String -> String -> String -> String -> String -> String
 bibformat_mla author title city publisher year = author ++ ". " ++ title ++ ". " ++ city ++ ": " ++ publisher ++ ", " ++ year
 
+bibformat_apa :: String -> String -> String -> String -> String -> String
 bibformat_apa author title city publisher year = author ++ " (" ++ year ++ "). " ++ title ++ ". " ++ city ++ ": " ++ publisher ++ "."
 
+bmi :: Float -> Float -> Float
 bmi w h = (w / (h * h)) * 703
 
---bmi_calculator name w h = "looks like " ++ name ++ "'s bmi is " ++ bmi' where bmi' = show(bmi w h)
+prompt :: String -> IO String
+prompt text = do
+    putStr text
+    hFlush stdout
+    getLine
 
-readInt :: IO Int
-readInt = do
-        s <- getLine
-        return(read s)
-
-putInt :: Int -> IO()
-putInt n = do putStr(show n)
+bmi_calculator :: IO ()
+bmi_calculator = do
+    name <- prompt "name: "
+    weight <- prompt "Enter weight: "
+    height <- prompt "Enter height: "
+    putStrLn $ "Looks like " ++ name ++ "'s BMI is " ++ show (bmi (read $ weight :: Float) (read $ height :: Float))
 
 main :: IO ()
 main = do
@@ -46,14 +55,4 @@ main = do
     print ("bmi " ++ (show (bmi 180 70)))
     print ("bmi " ++ (show (bmi 500 200)))
     print ("bmi " ++ (show (bmi 99 80)))
-    let test = readInt
-    --test2 <- read
-    putInt test
-    --let bmiout = bmi test test2
-    --print bmiout
-    --print ("Name weight and height");
-    --name <- getLine;
-    --weight <- getLine
-    --let height = 100
-    --    bmioutput = bmi weight height
-    --print bmioutput
+    bmi_calculator
