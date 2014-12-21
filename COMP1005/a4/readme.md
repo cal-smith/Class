@@ -8,7 +8,7 @@ Implementations in:
 ---
 Create a file called **a4.py** in a directory of your choosing. Be sure to place
 
-from `__future__` import division
+`from __future__ import division`
 
 At the top of your file so the `/` operator uses real division. (Of course, you can always use `//` for integer division, if you need it.)
 
