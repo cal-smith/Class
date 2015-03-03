@@ -1,13 +1,15 @@
 public class Node {
 	Match data;
 	Node next;
-	public Node(Match d, Node n){
+	Node prev;
+	public Node(Match d, Node n, Node p){
 		this.data = d;
 		this.next = n;
+		this.prev = p;
 	}
 
 	public Node(Match d){
-		this(d, null);
+		this(d, null, null);
 	}
 
 	public void printNext(){

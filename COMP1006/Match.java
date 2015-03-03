@@ -12,8 +12,15 @@ public class Match {
 		this.player2_race = p2r;
 		this.winner = w;
 	}
+	
+	public String winningRace() {
+		if (this.winner.equals(this.player1_name)) {
+			return this.player1_race;
+		}
+		return this.player2_race;
+	}
 
 	public String toString(){
-		return this.player1_name +" "+ this.player1_race +" - "+ this.player2_name +" "+ this.player2_race +" : "+ this.winner;
+		return this.player1_name +" "+ this.player1_race +" -vs- "+ this.player2_name +" "+ this.player2_race +" => winner: "+ this.winner;
 	}
 }
