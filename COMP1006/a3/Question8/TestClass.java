@@ -1,0 +1,51 @@
+public class TestClass {
+	public static void main(String[] args) {
+		LegoHat toque = new LegoHat("toque", "medium");
+		LegoHat sun_visor = new LegoHat("sun visor", "small");
+		LegoHat baseball_cap = new LegoHat("baseball cap", "huge");
+		System.out.println(toque);
+		System.out.println(sun_visor);
+		System.out.println(baseball_cap);
+		System.out.println(toque.computeStyle("summer"));
+		System.out.println(sun_visor.computeStyle("winter"));
+		System.out.println(baseball_cap.computeStyle("fall"));
+		LegoItem sword = new LegoItem("sword", 10.5f);
+		LegoItem cup = new LegoItem("cup", 5.6f);
+		LegoItem hammer = new LegoItem("hammer", 15.9992f);
+		System.out.println(sword);
+		System.out.println(cup);
+		System.out.println(hammer);
+		System.out.println("is the sword > 9.8grams? " + sword.isHeavy(9.8f));
+		System.out.println("is the cup > 6.5grams? " + cup.isHeavy(6.5f));
+		System.out.println("is the hammer > 10grams? " + hammer.isHeavy(10f));
+		LegoMinifigure minifig1 = new LegoMinifigure("bob", toque,  sword, null);
+		LegoMinifigure minifig2 = new LegoMinifigure("joe", null, null, sword);
+		LegoMinifigure minifig3 = new LegoMinifigure("joe", null, null, null);
+		LegoMinifigure minifig4 = new LegoMinifigure("joe", sun_visor, null, null);
+		LegoMinifigure minifig5 = new LegoMinifigure("bob III", baseball_cap, cup, hammer);
+		System.out.println("minifig1: " + minifig1);
+		System.out.println("minifig2: " + minifig2);
+		System.out.println("minifig3: " + minifig3);
+		System.out.println("minifig4: " + minifig4);
+		System.out.println("minifig5: " + minifig5);
+		System.out.println("\nswapping minifig5's and 4's hands:");
+		minifig5.swapHands();
+		minifig4.swapHands();
+		System.out.println(minifig5);
+		System.out.println(minifig4);
+		System.out.println("\ngiving minifig3/2 a hat");
+		minifig3.wearHat(toque);
+		minifig2.wearHat(baseball_cap);
+		System.out.println(minifig2);
+		System.out.println(minifig3);
+		System.out.println("\ngiving minifig3 a sword, and minifig1 another sword");
+		minifig3.placeInLeftHand(sword);
+		minifig1.placeInRightHand(sword);
+		System.out.println(minifig1);
+		System.out.println(minifig3);
+		System.out.println(minifig3.isGood("winter", 5.5f));
+		System.out.println(minifig5.isGood("fall", 20f));
+		LegoMinifigure test = new LegoMinifigure("test", sun_visor, null, null);
+		System.out.println(test.isGood("summer", 5f));
+	}
+}
