@@ -17,6 +17,6 @@ public class Ties extends Accessories {
 
     @Override
     public String toString(){
-        return "A" + (this.formal?"formal":"informal") + (this.gold?"gold":"silver") + "Tie";
+        return "A " + (this.formal?"formal ":"informal ") + (this.gold?"gold" :"silver ") + "Tie";
     }
 }

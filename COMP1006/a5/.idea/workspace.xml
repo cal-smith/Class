@@ -35,12 +35,16 @@
       <file leaf-file-name="GenerateOutfit.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GenerateOutfit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51403886" vertical-offset="208" max-vertical-offset="1134">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.8235294" vertical-offset="1044" max-vertical-offset="1836">
+              <caret line="86" column="62" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#3003#3004#0" expanded="true" />
+                <element signature="e#3043#3044#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,9 +53,13 @@
       <file leaf-file-name="TestOutfits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestOutfits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="774">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,34 +96,35 @@
         <option value="$PROJECT_DIR$/src/Pants/Pants.java" />
         <option value="$PROJECT_DIR$/src/Wearable.java" />
         <option value="$PROJECT_DIR$/src/Wearable/Shoes/Shoes.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Shoes/Boots.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Shoes/DressShoes.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Shoes/RunningShoes.java" />
         <option value="$PROJECT_DIR$/src/Wearable/Wearable.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Shirts/Sweater.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Shirts/TShirt.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Shirts/TurtleNeck.java" />
         <option value="$PROJECT_DIR$/src/Wearable/Pants/Pants.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Pants/Khakis.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Pants/Jeans.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Pants/Capris.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Pants/Shorts.java" />
         <option value="$PROJECT_DIR$/src/Wearable/Outerwear/Outerwear.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Outerwear/SpringCoat.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Outerwear/SuitJacket.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Outerwear/WinterJacket.java" />
         <option value="$PROJECT_DIR$/src/Wearable/Shirts/Shirts.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Accessories/Watches.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Accessories/Ties.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Accessories/Accessories.java" />
         <option value="$PROJECT_DIR$/src/Wearable/Accessories/Rings.java" />
         <option value="$PROJECT_DIR$/src/Wearable/Accessories/Necklaces.java" />
-        <option value="$PROJECT_DIR$/src/Wearable/Accessories/Accessories.java" />
-        <option value="$PROJECT_DIR$/src/GenerateOutfit.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Accessories/Ties.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Accessories/Watches.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Outerwear/SuitJacket.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Outerwear/WinterJacket.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Outerwear/SpringCoat.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Pants/Capris.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Pants/Jeans.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Pants/Khakis.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Pants/Shorts.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Shirts/TurtleNeck.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Shirts/TShirt.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Shirts/Sweater.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Shoes/Boots.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Shoes/RunningShoes.java" />
+        <option value="$PROJECT_DIR$/src/Wearable/Shoes/DressShoes.java" />
         <option value="$PROJECT_DIR$/src/TestOutfits.java" />
+        <option value="$PROJECT_DIR$/src/GenerateOutfit.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="29" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1023" />
@@ -327,6 +336,7 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -570,8 +580,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
-    <editor active="true" />
+    <frame x="29" y="23" width="1680" height="1023" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -616,7 +626,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -624,306 +636,226 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Shoes/RunningShoes.java">
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Accessories/Necklaces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116630666" vertical-offset="0" max-vertical-offset="926">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Shoes/DressShoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116630666" vertical-offset="0" max-vertical-offset="926">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Shoes/Boots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2138229" vertical-offset="0" max-vertical-offset="926">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Shirts/TurtleNeck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07775378" vertical-offset="0" max-vertical-offset="926">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Shirts/Sweater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27213824" vertical-offset="0" max-vertical-offset="926">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Shorts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Khakis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Pants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Capris.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07775378" vertical-offset="0" max-vertical-offset="926">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Jeans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2526998" vertical-offset="0" max-vertical-offset="926">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#79#80#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Outerwear/SpringCoat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Outerwear/SuitJacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Outerwear/WinterJacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07775378" vertical-offset="0" max-vertical-offset="926">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Shirts/TShirt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07775378" vertical-offset="0" max-vertical-offset="926">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Shirts/Shirts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07775378" vertical-offset="0" max-vertical-offset="926">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Shoes/Shoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03887689" vertical-offset="0" max-vertical-offset="926">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Outerwear/Outerwear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.058315333" vertical-offset="0" max-vertical-offset="926">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Accessories/Watches.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Wearable/Accessories/Ties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
           <folding>
             <element signature="e#98#99#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Wearable/Accessories/Rings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Accessories/Watches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Outerwear/SuitJacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Outerwear/SpringCoat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Outerwear/WinterJacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Capris.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="107" />
           <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wearable/Accessories/Necklaces.java">
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Jeans.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="104" selection-start-line="19" selection-start-column="104" selection-end-line="19" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Khakis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="105" selection-start-line="19" selection-start-column="105" selection-end-line="19" selection-end-column="105" />
           <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Shorts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="105" selection-start-line="19" selection-start-column="105" selection-end-line="19" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Shirts/TurtleNeck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47058824" vertical-offset="0" max-vertical-offset="612">
+          <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Shirts/Sweater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47058824" vertical-offset="0" max-vertical-offset="612">
+          <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Shoes/RunningShoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="101" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Shoes/DressShoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="99" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Shirts/TShirt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47058824" vertical-offset="0" max-vertical-offset="612">
+          <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Shoes/Boots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="95" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Wearable/Accessories/Accessories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+        <state vertical-scroll-proportion="0.0882353" vertical-offset="0" max-vertical-offset="612">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Outerwear/Outerwear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0882353" vertical-offset="0" max-vertical-offset="612">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Pants/Pants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11764706" vertical-offset="0" max-vertical-offset="612">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Shirts/Shirts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23529412" vertical-offset="0" max-vertical-offset="612">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearable/Shoes/Shoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29411766" vertical-offset="0" max-vertical-offset="612">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Wearable/Wearable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09719223" vertical-offset="0" max-vertical-offset="926">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.20588236" vertical-offset="0" max-vertical-offset="612">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestOutfits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="774">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GenerateOutfit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51403886" vertical-offset="208" max-vertical-offset="1134">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.8235294" vertical-offset="1044" max-vertical-offset="1836">
+          <caret line="86" column="62" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#3003#3004#0" expanded="true" />
+            <element signature="e#3043#3044#0" expanded="true" />
           </folding>
         </state>
       </provider>

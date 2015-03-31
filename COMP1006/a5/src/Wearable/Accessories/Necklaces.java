@@ -17,6 +17,6 @@ public class Necklaces extends Accessories {
 
     @Override
     public String toString(){
-        return "A" + (this.formal?"formal":"informal") + (this.gold?"gold":"silver") + "Necklace";
+        return "A " + (this.formal?"formal ":"informal ") + (this.gold?"gold ":"silver ") + "Necklace";
     }
 }

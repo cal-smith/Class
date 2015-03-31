@@ -17,6 +17,6 @@ public class Khakis extends Pants {
 
     @Override
     public String toString() {
-        return null;
+        return "A " + (this.formal?"formal ":"informal ") + (this.summer?"summery ":"wintery ") + "Khakis";
     }
 }

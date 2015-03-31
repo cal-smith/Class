@@ -17,6 +17,6 @@ public class Rings extends Accessories {
 
     @Override
     public String toString(){
-        return "A" + (this.formal?"formal":"informal") + (this.gold?"gold":"silver") + "Ring";
+        return "A " + (this.formal?"formal ":"informal ") + (this.gold?"gold ":"silver ") + "Ring";
     }
 }

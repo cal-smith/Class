@@ -17,6 +17,6 @@ public class Boots extends Shoes {
 
     @Override
     public String toString() {
-        return null;
+        return "A " + (this.formal?"formal ":"informal ") + (this.tough?"tough ":"") + "Boots";
     }
 }

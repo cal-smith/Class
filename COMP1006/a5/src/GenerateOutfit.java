@@ -13,7 +13,10 @@ public class GenerateOutfit {
     private ArrayList<Outerwear> outerwears;
     private ArrayList<Accessories> accessorieses;
     private boolean random(){
-        return Math.floor(Math.random() * 2) == 0;
+        return this.random(2) == 0;
+    }
+    private int random(int i){
+        return (int)Math.floor(Math.random()*i);
     }
     public GenerateOutfit() {
         this.shirtses = new ArrayList<Shirts>();
@@ -25,10 +28,15 @@ public class GenerateOutfit {
         shirtses.add(new TShirt(this.random()));
         shirtses.add(new Sweater(this.random()));
         shirtses.add(new TurtleNeck(this.random()));
+        shirtses.add(new TShirt(this.random()));
+        shirtses.add(new Sweater(this.random()));
+        shirtses.add(new TurtleNeck(this.random()));
 
         shoeses.add(new Boots(this.random()));
         shoeses.add(new DressShoes(this.random()));
         shoeses.add(new RunningShoes());
+        shoeses.add(new Boots(this.random()));
+        shoeses.add(new DressShoes(this.random()));
 
         pantses.add(new Jeans());
         pantses.add(new Khakis());
@@ -42,16 +50,47 @@ public class GenerateOutfit {
         accessorieses.add(new Necklaces(this.random(), this.random()));
         accessorieses.add(new Rings(this.random(), this.random()));
         accessorieses.add(new Ties(this.random()));
+        accessorieses.add(new Watches(this.random(), this.random()));
+        accessorieses.add(new Necklaces(this.random(), this.random()));
+        accessorieses.add(new Rings(this.random(), this.random()));
+        accessorieses.add(new Ties(this.random()));
+        accessorieses.add(new Watches(this.random(), this.random()));
     }
 
-    public void getOutfit(){
-        /*
-        * ties should only go with things that isGoodWithTie() == true
-        * isWarm() only goes with other isWarm() items
-        * isColorfull() == true shirts go with isFormal() == false items
-        * isTough() == true shoes dont go with isFormal() items
-        * forWinter() == true pants go with isWarm() == true items
-        *
-        * */
+    public boolean goodOutfit(Shirts s, Pants p, Shoes sh, Outerwear o, Accessories a){
+        if (s.isFormal()){
+            if (p.isFormal() && sh.isFormal() && o.isFormal() && a.isFormal()){
+                if (s.isWarm() && a.isGold()){
+                    return true;
+                } else if (!a.isGold()) {
+                    return true;
+                }
+            }
+        } else {
+            if (!p.isFormal() && !sh.isFormal() && !o.isFormal() && !a.isFormal()) {
+                if (p.forSummer() && !s.isWarm() && !o.isWarm()) {
+                    return true;
+                } else if (!p.forSummer() && s.isWarm() && sh.isTough() && o.isWarm()) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public String getOutfit(){
+        return getOutfitHelper();
+    }
+    private String getOutfitHelper(){
+        Shirts shirt = shirtses.get(this.random(shirtses.size()));
+        Pants pant = pantses.get(this.random(pantses.size()));
+        Shoes shoe = shoeses.get(this.random(shoeses.size()));
+        Outerwear outer = outerwears.get(this.random(outerwears.size()));
+        Accessories acc = accessorieses.get(this.random(accessorieses.size()));
+        if (this.goodOutfit(shirt, pant, shoe, outer, acc)){
+            return shirt.toString() + " with " + pant.toString() + " with " + shoe.toString() + " with " + outer.toString() + " with " + acc.toString();
+        } else {
+            return getOutfitHelper();
+        }
     }
 }

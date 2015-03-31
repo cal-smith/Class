@@ -17,6 +17,6 @@ public class SuitJacket extends Outerwear {
 
     @Override
     public String toString() {
-        return null;
+        return "A " + (this.formal?"formal ":"informal ") + (this.warm?"warm ":"") + "Suit Jacket";
     }
 }
